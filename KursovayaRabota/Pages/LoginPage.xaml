@@ -1,0 +1,18 @@
+﻿<Page x:Class="KursovayaRabota.Pages.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KursovayaRabota.Pages"
+      mc:Ignorable="d"
+      Title="LoginPage" Height="432" Width="1046">
+
+    <Grid Height="432" VerticalAlignment="Top" Width="1046">
+        <Label x:Name="loginLabel" Content="Логин:" HorizontalAlignment="Left" Margin="336,144,0,0" VerticalAlignment="Top" Height="36" Width="60" FontSize="16"/>
+        <Label x:Name="passLabel" Content="Пароль:" HorizontalAlignment="Left" Margin="329,204,0,0" VerticalAlignment="Top" FontSize="16" Width="67"/>
+        <TextBox x:Name="loginBox" HorizontalAlignment="Left" Height="24" Margin="414,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="290" FontSize="16"/>
+        <TextBox x:Name="passBox" HorizontalAlignment="Left" Height="24" Margin="414,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="290" FontSize="16"/>
+        <Button x:Name="enterButton" Content="Войти" HorizontalAlignment="Left" Margin="460,264,0,0" VerticalAlignment="Top" Width="187" Height="29" FontSize="16" Click="enterButton_Click"/>
+        <Button Content="Закрыть приложение" Name="closeApp_button" HorizontalAlignment="Left" Margin="460,322,0,0" VerticalAlignment="Top" Width="187" Height="28" FontSize="16" Click="closeApp_button_Click"/>
+    </Grid>
+</Page>

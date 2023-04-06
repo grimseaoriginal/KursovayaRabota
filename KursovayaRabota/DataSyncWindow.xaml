@@ -1,0 +1,13 @@
+﻿<Window x:Name="dataSyncWindoww" x:Class="KursovayaRabota.DataSyncWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovayaRabota"
+        mc:Ignorable="d"
+        Title="Синхронизация данных" Height="162.534" Width="309.973" ResizeMode="NoResize" Icon="Icons/carinsurance2.png">
+    <Grid Width="309.973" Margin="0,0,-8,-4">
+        <Label x:Name="waitLabel" Content="Ожидайте...." HorizontalAlignment="Left" Margin="111,31,0,0" VerticalAlignment="Top" Height="31" Width="78"/>
+        <Button x:Name="continueButton" Content="Продолжить" HorizontalAlignment="Left" Margin="98,87,0,0" VerticalAlignment="Top" Width="97" FontSize="14" IsEnabled="False" Click="continueButton_Click"/>
+    </Grid>
+</Window>
